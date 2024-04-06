@@ -1,9 +1,10 @@
-const {
-    client,
+import {
     connectDB
-} = require('./mongoose');
+} from './mongoose.js';
+import dotenv  from 'dotenv';
+import app from './app.js';
 
-const dotenv = require('dotenv').config();
+dotenv.config();
 
 async function main() {
     const db = await connectDB();
