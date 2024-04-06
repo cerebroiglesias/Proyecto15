@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index-cb.js",
     "start-promise": "node index-promise.js",
-    "dev-cb": "nodemon index-cb.js",
+    "dev": "nodemon index-cb.js",
     "dev-promise": "nodemon index-promise.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "mongodb": "^6.5.0"
+    "mongoose": "^8.3.0"
   }
 }
